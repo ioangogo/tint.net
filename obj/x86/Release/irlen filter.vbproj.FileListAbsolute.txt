@@ -1,0 +1,13 @@
+C:\Users\Ioan\Documents\Visual Studio 2010\Projects\irlen filter\irlen filter\bin\Release\Tint.net.exe.config
+C:\Users\Ioan\Documents\Visual Studio 2010\Projects\irlen filter\irlen filter\bin\Release\Tint.net.exe
+C:\Users\Ioan\Documents\Visual Studio 2010\Projects\irlen filter\irlen filter\bin\Release\Tint.net.pdb
+C:\Users\Ioan\Documents\Visual Studio 2010\Projects\irlen filter\irlen filter\bin\Release\Tint.net.xml
+C:\Users\Ioan\Documents\Visual Studio 2010\Projects\irlen filter\irlen filter\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\Ioan\Documents\Visual Studio 2010\Projects\irlen filter\irlen filter\obj\x86\Release\Tint.net.AboutBox1.resources
+C:\Users\Ioan\Documents\Visual Studio 2010\Projects\irlen filter\irlen filter\obj\x86\Release\Tint.net.Form1.resources
+C:\Users\Ioan\Documents\Visual Studio 2010\Projects\irlen filter\irlen filter\obj\x86\Release\Tint.net.Resources.resources
+C:\Users\Ioan\Documents\Visual Studio 2010\Projects\irlen filter\irlen filter\obj\x86\Release\GenerateResource.read.1.tlog
+C:\Users\Ioan\Documents\Visual Studio 2010\Projects\irlen filter\irlen filter\obj\x86\Release\GenerateResource.write.1.tlog
+C:\Users\Ioan\Documents\Visual Studio 2010\Projects\irlen filter\irlen filter\obj\x86\Release\Tint.net.exe
+C:\Users\Ioan\Documents\Visual Studio 2010\Projects\irlen filter\irlen filter\obj\x86\Release\Tint.net.xml
+C:\Users\Ioan\Documents\Visual Studio 2010\Projects\irlen filter\irlen filter\obj\x86\Release\Tint.net.pdb

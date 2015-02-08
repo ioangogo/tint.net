@@ -1,0 +1,24 @@
+C:\Users\Ioan\AppData\Local\Temporary Projects\irlen filter\bin\Debug\irlen filter.exe
+C:\Users\Ioan\AppData\Local\Temporary Projects\irlen filter\bin\Debug\irlen filter.pdb
+C:\Users\Ioan\AppData\Local\Temporary Projects\irlen filter\bin\Debug\irlen filter.xml
+C:\Users\Ioan\AppData\Local\Temporary Projects\irlen filter\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Ioan\AppData\Local\Temporary Projects\irlen filter\obj\x86\Debug\irlen_filter.Form1.resources
+C:\Users\Ioan\AppData\Local\Temporary Projects\irlen filter\obj\x86\Debug\irlen_filter.Resources.resources
+C:\Users\Ioan\AppData\Local\Temporary Projects\irlen filter\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Ioan\AppData\Local\Temporary Projects\irlen filter\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Ioan\AppData\Local\Temporary Projects\irlen filter\obj\x86\Debug\irlen filter.exe
+C:\Users\Ioan\AppData\Local\Temporary Projects\irlen filter\obj\x86\Debug\irlen filter.xml
+C:\Users\Ioan\AppData\Local\Temporary Projects\irlen filter\obj\x86\Debug\irlen filter.pdb
+C:\Users\Ioan\documents\visual studio 2010\Projects\irlen filter\irlen filter\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Ioan\documents\visual studio 2010\Projects\irlen filter\irlen filter\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Ioan\documents\visual studio 2010\Projects\irlen filter\irlen filter\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Ioan\documents\visual studio 2010\Projects\irlen filter\irlen filter\bin\Debug\Tint.net.exe
+C:\Users\Ioan\documents\visual studio 2010\Projects\irlen filter\irlen filter\bin\Debug\Tint.net.pdb
+C:\Users\Ioan\documents\visual studio 2010\Projects\irlen filter\irlen filter\bin\Debug\Tint.net.xml
+C:\Users\Ioan\documents\visual studio 2010\Projects\irlen filter\irlen filter\obj\x86\Debug\Tint.net.AboutBox1.resources
+C:\Users\Ioan\documents\visual studio 2010\Projects\irlen filter\irlen filter\obj\x86\Debug\Tint.net.Form1.resources
+C:\Users\Ioan\documents\visual studio 2010\Projects\irlen filter\irlen filter\obj\x86\Debug\Tint.net.Resources.resources
+C:\Users\Ioan\documents\visual studio 2010\Projects\irlen filter\irlen filter\obj\x86\Debug\Tint.net.exe
+C:\Users\Ioan\documents\visual studio 2010\Projects\irlen filter\irlen filter\obj\x86\Debug\Tint.net.xml
+C:\Users\Ioan\documents\visual studio 2010\Projects\irlen filter\irlen filter\obj\x86\Debug\Tint.net.pdb
+C:\Users\Ioan\Documents\Visual Studio 2010\Projects\irlen filter\irlen filter\bin\Debug\Tint.net.exe.config
