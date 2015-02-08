@@ -27,6 +27,22 @@ Partial Class Form1
         Me.NotifyIcon1 = New System.Windows.Forms.NotifyIcon(Me.components)
         Me.ContextMenuStrip1 = New System.Windows.Forms.ContextMenuStrip(Me.components)
         Me.SetColourToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.PresetsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.RedToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.GreenToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.BlueToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ToolStripSeparator1 = New System.Windows.Forms.ToolStripSeparator()
+        Me.IrlenToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.BlueGrayToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.GoldenRodToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.GrayToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.GreenToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.RoseToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.TuequoiseToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.PeachToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.PurpleToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.YelloToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.AquaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.TransparncyToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStripMenuItem2 = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStripMenuItem3 = New System.Windows.Forms.ToolStripMenuItem()
@@ -41,22 +57,6 @@ Partial Class Form1
         Me.AboutToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ExitToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ColorDialog1 = New System.Windows.Forms.ColorDialog()
-        Me.PresetsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.RedToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.GreenToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
-        Me.BlueToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.IrlenToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.BlueGrayToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.GoldenRodToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.GrayToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.GreenToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.RoseToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.TuequoiseToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.PeachToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.PurpleToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.YelloToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.AquaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ToolStripSeparator1 = New System.Windows.Forms.ToolStripSeparator()
         Me.ContextMenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -71,103 +71,19 @@ Partial Class Form1
         '
         Me.ContextMenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.SetColourToolStripMenuItem, Me.PresetsToolStripMenuItem, Me.TransparncyToolStripMenuItem, Me.AboutToolStripMenuItem, Me.ExitToolStripMenuItem})
         Me.ContextMenuStrip1.Name = "ContextMenuStrip1"
-        Me.ContextMenuStrip1.Size = New System.Drawing.Size(153, 136)
+        Me.ContextMenuStrip1.Size = New System.Drawing.Size(130, 114)
         '
         'SetColourToolStripMenuItem
         '
         Me.SetColourToolStripMenuItem.Name = "SetColourToolStripMenuItem"
-        Me.SetColourToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.SetColourToolStripMenuItem.Size = New System.Drawing.Size(129, 22)
         Me.SetColourToolStripMenuItem.Text = "Set Colour"
-        '
-        'TransparncyToolStripMenuItem
-        '
-        Me.TransparncyToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripMenuItem2, Me.ToolStripMenuItem3, Me.ToolStripMenuItem4, Me.ToolStripMenuItem5, Me.ToolStripMenuItem6, Me.ToolStripMenuItem7, Me.ToolStripMenuItem8, Me.ToolStripMenuItem9, Me.OffToolStripMenuItem, Me.CustomToolStripMenuItem})
-        Me.TransparncyToolStripMenuItem.Name = "TransparncyToolStripMenuItem"
-        Me.TransparncyToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
-        Me.TransparncyToolStripMenuItem.Text = "Strength"
-        '
-        'ToolStripMenuItem2
-        '
-        Me.ToolStripMenuItem2.Name = "ToolStripMenuItem2"
-        Me.ToolStripMenuItem2.Size = New System.Drawing.Size(152, 22)
-        Me.ToolStripMenuItem2.Text = "10%"
-        '
-        'ToolStripMenuItem3
-        '
-        Me.ToolStripMenuItem3.Name = "ToolStripMenuItem3"
-        Me.ToolStripMenuItem3.Size = New System.Drawing.Size(152, 22)
-        Me.ToolStripMenuItem3.Text = "20%"
-        '
-        'ToolStripMenuItem4
-        '
-        Me.ToolStripMenuItem4.Name = "ToolStripMenuItem4"
-        Me.ToolStripMenuItem4.Size = New System.Drawing.Size(152, 22)
-        Me.ToolStripMenuItem4.Text = "30%"
-        '
-        'ToolStripMenuItem5
-        '
-        Me.ToolStripMenuItem5.Name = "ToolStripMenuItem5"
-        Me.ToolStripMenuItem5.Size = New System.Drawing.Size(152, 22)
-        Me.ToolStripMenuItem5.Text = "40%"
-        '
-        'ToolStripMenuItem6
-        '
-        Me.ToolStripMenuItem6.Name = "ToolStripMenuItem6"
-        Me.ToolStripMenuItem6.Size = New System.Drawing.Size(152, 22)
-        Me.ToolStripMenuItem6.Text = "50%"
-        '
-        'ToolStripMenuItem7
-        '
-        Me.ToolStripMenuItem7.Name = "ToolStripMenuItem7"
-        Me.ToolStripMenuItem7.Size = New System.Drawing.Size(152, 22)
-        Me.ToolStripMenuItem7.Text = "60%"
-        '
-        'ToolStripMenuItem8
-        '
-        Me.ToolStripMenuItem8.Name = "ToolStripMenuItem8"
-        Me.ToolStripMenuItem8.Size = New System.Drawing.Size(152, 22)
-        Me.ToolStripMenuItem8.Text = "70%"
-        '
-        'ToolStripMenuItem9
-        '
-        Me.ToolStripMenuItem9.Name = "ToolStripMenuItem9"
-        Me.ToolStripMenuItem9.Size = New System.Drawing.Size(152, 22)
-        Me.ToolStripMenuItem9.Text = "80%"
-        '
-        'OffToolStripMenuItem
-        '
-        Me.OffToolStripMenuItem.Name = "OffToolStripMenuItem"
-        Me.OffToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
-        Me.OffToolStripMenuItem.Text = "Off"
-        '
-        'CustomToolStripMenuItem
-        '
-        Me.CustomToolStripMenuItem.Name = "CustomToolStripMenuItem"
-        Me.CustomToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
-        Me.CustomToolStripMenuItem.Text = "Custom"
-        '
-        'AboutToolStripMenuItem
-        '
-        Me.AboutToolStripMenuItem.Name = "AboutToolStripMenuItem"
-        Me.AboutToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
-        Me.AboutToolStripMenuItem.Text = "About"
-        '
-        'ExitToolStripMenuItem
-        '
-        Me.ExitToolStripMenuItem.Name = "ExitToolStripMenuItem"
-        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
-        Me.ExitToolStripMenuItem.Text = "Exit"
-        '
-        'ColorDialog1
-        '
-        Me.ColorDialog1.AnyColor = True
-        Me.ColorDialog1.FullOpen = True
         '
         'PresetsToolStripMenuItem
         '
         Me.PresetsToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.RedToolStripMenuItem, Me.GreenToolStripMenuItem1, Me.BlueToolStripMenuItem, Me.ToolStripSeparator1, Me.IrlenToolStripMenuItem})
         Me.PresetsToolStripMenuItem.Name = "PresetsToolStripMenuItem"
-        Me.PresetsToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.PresetsToolStripMenuItem.Size = New System.Drawing.Size(129, 22)
         Me.PresetsToolStripMenuItem.Text = "Presets"
         '
         'RedToolStripMenuItem
@@ -187,6 +103,11 @@ Partial Class Form1
         Me.BlueToolStripMenuItem.Name = "BlueToolStripMenuItem"
         Me.BlueToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.BlueToolStripMenuItem.Text = "Blue"
+        '
+        'ToolStripSeparator1
+        '
+        Me.ToolStripSeparator1.Name = "ToolStripSeparator1"
+        Me.ToolStripSeparator1.Size = New System.Drawing.Size(149, 6)
         '
         'IrlenToolStripMenuItem
         '
@@ -255,10 +176,89 @@ Partial Class Form1
         Me.AquaToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.AquaToolStripMenuItem.Text = "Aqua"
         '
-        'ToolStripSeparator1
+        'TransparncyToolStripMenuItem
         '
-        Me.ToolStripSeparator1.Name = "ToolStripSeparator1"
-        Me.ToolStripSeparator1.Size = New System.Drawing.Size(149, 6)
+        Me.TransparncyToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ToolStripMenuItem2, Me.ToolStripMenuItem3, Me.ToolStripMenuItem4, Me.ToolStripMenuItem5, Me.ToolStripMenuItem6, Me.ToolStripMenuItem7, Me.ToolStripMenuItem8, Me.ToolStripMenuItem9, Me.OffToolStripMenuItem, Me.CustomToolStripMenuItem})
+        Me.TransparncyToolStripMenuItem.Name = "TransparncyToolStripMenuItem"
+        Me.TransparncyToolStripMenuItem.Size = New System.Drawing.Size(129, 22)
+        Me.TransparncyToolStripMenuItem.Text = "Strength"
+        '
+        'ToolStripMenuItem2
+        '
+        Me.ToolStripMenuItem2.Name = "ToolStripMenuItem2"
+        Me.ToolStripMenuItem2.Size = New System.Drawing.Size(116, 22)
+        Me.ToolStripMenuItem2.Text = "10%"
+        '
+        'ToolStripMenuItem3
+        '
+        Me.ToolStripMenuItem3.Name = "ToolStripMenuItem3"
+        Me.ToolStripMenuItem3.Size = New System.Drawing.Size(116, 22)
+        Me.ToolStripMenuItem3.Text = "20%"
+        '
+        'ToolStripMenuItem4
+        '
+        Me.ToolStripMenuItem4.Name = "ToolStripMenuItem4"
+        Me.ToolStripMenuItem4.Size = New System.Drawing.Size(116, 22)
+        Me.ToolStripMenuItem4.Text = "30%"
+        '
+        'ToolStripMenuItem5
+        '
+        Me.ToolStripMenuItem5.Name = "ToolStripMenuItem5"
+        Me.ToolStripMenuItem5.Size = New System.Drawing.Size(116, 22)
+        Me.ToolStripMenuItem5.Text = "40%"
+        '
+        'ToolStripMenuItem6
+        '
+        Me.ToolStripMenuItem6.Name = "ToolStripMenuItem6"
+        Me.ToolStripMenuItem6.Size = New System.Drawing.Size(116, 22)
+        Me.ToolStripMenuItem6.Text = "50%"
+        '
+        'ToolStripMenuItem7
+        '
+        Me.ToolStripMenuItem7.Name = "ToolStripMenuItem7"
+        Me.ToolStripMenuItem7.Size = New System.Drawing.Size(116, 22)
+        Me.ToolStripMenuItem7.Text = "60%"
+        '
+        'ToolStripMenuItem8
+        '
+        Me.ToolStripMenuItem8.Name = "ToolStripMenuItem8"
+        Me.ToolStripMenuItem8.Size = New System.Drawing.Size(116, 22)
+        Me.ToolStripMenuItem8.Text = "70%"
+        '
+        'ToolStripMenuItem9
+        '
+        Me.ToolStripMenuItem9.Name = "ToolStripMenuItem9"
+        Me.ToolStripMenuItem9.Size = New System.Drawing.Size(116, 22)
+        Me.ToolStripMenuItem9.Text = "80%"
+        '
+        'OffToolStripMenuItem
+        '
+        Me.OffToolStripMenuItem.Name = "OffToolStripMenuItem"
+        Me.OffToolStripMenuItem.Size = New System.Drawing.Size(116, 22)
+        Me.OffToolStripMenuItem.Text = "Off"
+        '
+        'CustomToolStripMenuItem
+        '
+        Me.CustomToolStripMenuItem.Name = "CustomToolStripMenuItem"
+        Me.CustomToolStripMenuItem.Size = New System.Drawing.Size(116, 22)
+        Me.CustomToolStripMenuItem.Text = "Custom"
+        '
+        'AboutToolStripMenuItem
+        '
+        Me.AboutToolStripMenuItem.Name = "AboutToolStripMenuItem"
+        Me.AboutToolStripMenuItem.Size = New System.Drawing.Size(129, 22)
+        Me.AboutToolStripMenuItem.Text = "About"
+        '
+        'ExitToolStripMenuItem
+        '
+        Me.ExitToolStripMenuItem.Name = "ExitToolStripMenuItem"
+        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(129, 22)
+        Me.ExitToolStripMenuItem.Text = "Exit"
+        '
+        'ColorDialog1
+        '
+        Me.ColorDialog1.AnyColor = True
+        Me.ColorDialog1.FullOpen = True
         '
         'Form1
         '

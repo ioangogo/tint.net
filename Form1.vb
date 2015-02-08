@@ -103,47 +103,43 @@ Public Class Form1
         settrans(val)
     End Sub
 
-    Private Sub WhiteToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
-        Me.BackColor = Color.White
-    End Sub
-
-    Private Sub GoldenRodToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
+    Private Sub GoldenRodToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles GoldenRodToolStripMenuItem.Click
         Me.BackColor = ColorTranslator.FromHtml("#DAA520")
     End Sub
 
-    Private Sub GrayToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
+    Private Sub GrayToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles GrayToolStripMenuItem.Click
         Me.BackColor = ColorTranslator.FromHtml("#c1bdba")
     End Sub
 
-    Private Sub BlueGrayToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
+    Private Sub BlueGrayToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles BlueGrayToolStripMenuItem.Click
         Me.BackColor = ColorTranslator.FromHtml("#cad4dd")
     End Sub
 
-    Private Sub GreenToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
+    Private Sub GreenToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles GreenToolStripMenuItem.Click
         Me.BackColor = ColorTranslator.FromHtml("#ace1b9")
     End Sub
 
-    Private Sub RoseToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
+    Private Sub RoseToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles RoseToolStripMenuItem.Click
         Me.BackColor = ColorTranslator.FromHtml("#dc6c6c")
     End Sub
 
-    Private Sub TuequoiseToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
+    Private Sub TuequoiseToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles TuequoiseToolStripMenuItem.Click
         Me.BackColor = ColorTranslator.FromHtml("#61bce9")
     End Sub
 
-    Private Sub PeachToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
-        Me.BackColor = ColorTranslator.FromHtml("#61bce9")
-    End Sub
-
-    Private Sub PurpleToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
+    Private Sub PeachToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PeachToolStripMenuItem.Click
         Me.BackColor = ColorTranslator.FromHtml("#bb9cd5")
     End Sub
 
-    Private Sub YelloToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
+    Private Sub PurpleToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PurpleToolStripMenuItem.Click
+        Me.BackColor = ColorTranslator.FromHtml("#bb9cd5")
+    End Sub
+
+    Private Sub YelloToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles YelloToolStripMenuItem.Click
         Me.BackColor = ColorTranslator.FromHtml("#dfe3b0")
     End Sub
 
-    Private Sub AquaToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
+    Private Sub AquaToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles AquaToolStripMenuItem.Click
         Me.BackColor = ColorTranslator.FromHtml("#0469cf")
     End Sub
 
@@ -158,4 +154,10 @@ Public Class Form1
     Private Sub BlueToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles BlueToolStripMenuItem.Click
         Me.BackColor = Color.Blue
     End Sub
+
+    Private Sub PresetsToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PresetsToolStripMenuItem.Click
+
+    End Sub
+
+
 End Class
