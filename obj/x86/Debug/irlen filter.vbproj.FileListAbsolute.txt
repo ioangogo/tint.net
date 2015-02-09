@@ -20,3 +20,14 @@ C:\Users\Ioan\documents\visual studio 2010\Projects\irlen filter\irlen filter\ob
 C:\Users\Ioan\documents\visual studio 2010\Projects\irlen filter\irlen filter\obj\x86\Debug\Tint.net.pdb
 C:\Users\Ioan\Documents\Visual Studio 2010\Projects\irlen filter\irlen filter\bin\Debug\Tint.net.exe.config
 C:\Users\Ioan\Documents\Visual Studio 2010\Projects\irlen filter\irlen filter\obj\x86\Debug\irlen filter.vbproj.GenerateResource.Cache
+C:\Users\Ioan\Documents\GitHub\tint.net\bin\Debug\Tint.net.exe.config
+C:\Users\Ioan\Documents\GitHub\tint.net\obj\x86\Debug\Tint.net.exe
+C:\Users\Ioan\Documents\GitHub\tint.net\obj\x86\Debug\Tint.net.xml
+C:\Users\Ioan\Documents\GitHub\tint.net\obj\x86\Debug\Tint.net.pdb
+C:\Users\Ioan\Documents\GitHub\tint.net\bin\Debug\Tint.net.exe
+C:\Users\Ioan\Documents\GitHub\tint.net\bin\Debug\Tint.net.pdb
+C:\Users\Ioan\Documents\GitHub\tint.net\bin\Debug\Tint.net.xml
+C:\Users\Ioan\Documents\GitHub\tint.net\obj\x86\Debug\Tint.net.AboutBox1.resources
+C:\Users\Ioan\Documents\GitHub\tint.net\obj\x86\Debug\Tint.net.Form1.resources
+C:\Users\Ioan\Documents\GitHub\tint.net\obj\x86\Debug\Tint.net.Resources.resources
+C:\Users\Ioan\Documents\GitHub\tint.net\obj\x86\Debug\irlen filter.vbproj.GenerateResource.Cache
