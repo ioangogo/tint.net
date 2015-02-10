@@ -1,4 +1,10 @@
 # tint.net
-Tint.net is a open source progam aimed at dyslectic indviduals.
 
-Some of the colours where scraped from the ilren site and I clame no connection to the orgnisation, this is merly a 3rd party program that has no relation just used the colours for a basis
+Tint.net is a open source progam aimed to help dampen the effects of certian types of dyslexia.
+
+
+Credits
+-------
+Thanks to stackover flow and it community for having precooked code for the overlaying section. Presest Colours are scraped from Irlen website.
+
+This project is licenced under the AGPL v2, a copy of witch can be found on the gnu website
