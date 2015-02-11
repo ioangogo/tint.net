@@ -140,6 +140,8 @@
     <None Include="Resources\First Time Run.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\1024px-Hue_alpha_2.svg.png" />
+    <None Include="Resources\Vista-Help-Question-Mark.jpg" />
     <Content Include="Tinted Window icon.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />

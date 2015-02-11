@@ -15,6 +15,14 @@ Tint.net
   Overrides the current thread's CurrentUICulture property for all
   resource lookups using this strongly typed resource class.
 </summary>
+</member><member name="P:Tint.net.My.Resources.Resources._1024px_Hue_alpha_2_svg">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Tint.net.My.Resources.Resources.Vista_Help_Question_Mark">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
 </member><member name="T:Tint.net.My.Resources.Resources">
 	<summary>
   A strongly-typed resource class, for looking up localized strings, etc.

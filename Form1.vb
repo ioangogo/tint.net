@@ -34,6 +34,14 @@ Public Class Form1
     <DllImport("user32.dll", EntryPoint:="SetLayeredWindowAttributes")> Public Shared Function SetLayeredWindowAttributes(ByVal hWnd As IntPtr, ByVal crKey As Integer, ByVal alpha As Byte, ByVal dwFlags As Integer) As Boolean
     End Function
 
+    Private Sub NotifyIcon1_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles NotifyIcon1.Click
+        ContextMenuStrip1.Show()
+    End Sub
+
+    Private Sub NotifyIcon1_MouseClick(ByVal sender As Object, ByVal e As System.Windows.Forms.MouseEventArgs) Handles NotifyIcon1.MouseClick
+
+    End Sub
+
     Private Sub NotifyIcon1_MouseDoubleClick(ByVal sender As System.Object, ByVal e As System.Windows.Forms.MouseEventArgs) Handles NotifyIcon1.MouseDoubleClick
 
     End Sub
@@ -139,7 +147,7 @@ Public Class Form1
     End Sub
 
     Private Sub PeachToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PeachToolStripMenuItem.Click
-        Me.BackColor = ColorTranslator.FromHtml("#bb9cd5")
+        Me.BackColor = ColorTranslator.FromHtml("#e6bca4")
     End Sub
 
     Private Sub PurpleToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PurpleToolStripMenuItem.Click

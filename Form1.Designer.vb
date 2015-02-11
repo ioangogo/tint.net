@@ -26,7 +26,6 @@ Partial Class Form1
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
         Me.NotifyIcon1 = New System.Windows.Forms.NotifyIcon(Me.components)
         Me.ContextMenuStrip1 = New System.Windows.Forms.ContextMenuStrip(Me.components)
-        Me.SetColourToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.PresetsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.RedToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.GreenToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
@@ -57,6 +56,7 @@ Partial Class Form1
         Me.AboutToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ExitToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ColorDialog1 = New System.Windows.Forms.ColorDialog()
+        Me.SetColourToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ContextMenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -76,12 +76,6 @@ Partial Class Form1
         Me.ContextMenuStrip1.Name = "ContextMenuStrip1"
         Me.ContextMenuStrip1.Size = New System.Drawing.Size(130, 114)
         '
-        'SetColourToolStripMenuItem
-        '
-        Me.SetColourToolStripMenuItem.Name = "SetColourToolStripMenuItem"
-        Me.SetColourToolStripMenuItem.Size = New System.Drawing.Size(129, 22)
-        Me.SetColourToolStripMenuItem.Text = "Set Colour"
-        '
         'PresetsToolStripMenuItem
         '
         Me.PresetsToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.RedToolStripMenuItem, Me.GreenToolStripMenuItem1, Me.BlueToolStripMenuItem, Me.ToolStripSeparator1, Me.IrlenToolStripMenuItem})
@@ -92,31 +86,31 @@ Partial Class Form1
         'RedToolStripMenuItem
         '
         Me.RedToolStripMenuItem.Name = "RedToolStripMenuItem"
-        Me.RedToolStripMenuItem.Size = New System.Drawing.Size(105, 22)
+        Me.RedToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.RedToolStripMenuItem.Text = "Red"
         '
         'GreenToolStripMenuItem1
         '
         Me.GreenToolStripMenuItem1.Name = "GreenToolStripMenuItem1"
-        Me.GreenToolStripMenuItem1.Size = New System.Drawing.Size(105, 22)
+        Me.GreenToolStripMenuItem1.Size = New System.Drawing.Size(152, 22)
         Me.GreenToolStripMenuItem1.Text = "Green"
         '
         'BlueToolStripMenuItem
         '
         Me.BlueToolStripMenuItem.Name = "BlueToolStripMenuItem"
-        Me.BlueToolStripMenuItem.Size = New System.Drawing.Size(105, 22)
+        Me.BlueToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.BlueToolStripMenuItem.Text = "Blue"
         '
         'ToolStripSeparator1
         '
         Me.ToolStripSeparator1.Name = "ToolStripSeparator1"
-        Me.ToolStripSeparator1.Size = New System.Drawing.Size(102, 6)
+        Me.ToolStripSeparator1.Size = New System.Drawing.Size(149, 6)
         '
         'IrlenToolStripMenuItem
         '
         Me.IrlenToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.BlueGrayToolStripMenuItem, Me.GoldenRodToolStripMenuItem, Me.GrayToolStripMenuItem, Me.GreenToolStripMenuItem, Me.RoseToolStripMenuItem, Me.TuequoiseToolStripMenuItem, Me.PeachToolStripMenuItem, Me.PurpleToolStripMenuItem, Me.YelloToolStripMenuItem, Me.AquaToolStripMenuItem})
         Me.IrlenToolStripMenuItem.Name = "IrlenToolStripMenuItem"
-        Me.IrlenToolStripMenuItem.Size = New System.Drawing.Size(105, 22)
+        Me.IrlenToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.IrlenToolStripMenuItem.Text = "Irlen"
         '
         'BlueGrayToolStripMenuItem
@@ -262,6 +256,13 @@ Partial Class Form1
         '
         Me.ColorDialog1.AnyColor = True
         Me.ColorDialog1.FullOpen = True
+        '
+        'SetColourToolStripMenuItem
+        '
+        Me.SetColourToolStripMenuItem.Image = Global.Tint.net.My.Resources.Resources._1024px_Hue_alpha_2_svg
+        Me.SetColourToolStripMenuItem.Name = "SetColourToolStripMenuItem"
+        Me.SetColourToolStripMenuItem.Size = New System.Drawing.Size(129, 22)
+        Me.SetColourToolStripMenuItem.Text = "Set Colour"
         '
         'Form1
         '
