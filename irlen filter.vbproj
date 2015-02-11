@@ -137,6 +137,9 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\First Time Run.png" />
+  </ItemGroup>
+  <ItemGroup>
     <Content Include="Tinted Window icon.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />

@@ -5,15 +5,24 @@ Public Class Form1
     Private InitialStyle As Integer
     Dim PercentVisible As Decimal
     Private Sub Form1_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+        Me.Hide()
+        NotifyIcon1.ShowBalloonTip(100)
+
+
+
         InitialStyle = GetWindowLong(Me.Handle, -20)
         PercentVisible = My.Settings.trans
+
+        
 
         SetWindowLong(Me.Handle, -20, InitialStyle Or &H80000 Or &H20)
 
         SetLayeredWindowAttributes(Me.Handle, 0, 255 * PercentVisible, &H2)
 
+        Me.Show()
         Me.BackColor = My.Settings.colour
         Me.TopMost = True
+
     End Sub
 
     <DllImport("user32.dll", EntryPoint:="GetWindowLong")> Public Shared Function GetWindowLong(ByVal hWnd As IntPtr, ByVal nIndex As Integer) As Integer
@@ -34,8 +43,10 @@ Public Class Form1
     End Sub
 
     Private Sub SetColourToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles SetColourToolStripMenuItem.Click
+        Me.Hide()
         ColorDialog1.ShowDialog()
         Me.BackColor = ColorDialog1.Color
+        Me.Show()
     End Sub
 
     Private Sub settrans(ByVal PerVi)
@@ -144,15 +155,15 @@ Public Class Form1
     End Sub
 
     Private Sub RedToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles RedToolStripMenuItem.Click
-        Me.BackColor = Color.Red
+        Me.BackColor = ColorTranslator.FromHtml("#FF0000")
     End Sub
 
     Private Sub GreenToolStripMenuItem1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles GreenToolStripMenuItem1.Click
-        Me.BackColor = Color.Green
+        Me.BackColor = ColorTranslator.FromHtml("#00FF00")
     End Sub
 
     Private Sub BlueToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles BlueToolStripMenuItem.Click
-        Me.BackColor = Color.Blue
+        Me.BackColor = ColorTranslator.FromHtml("#0000FF")
     End Sub
 
     Private Sub PresetsToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PresetsToolStripMenuItem.Click

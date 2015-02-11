@@ -62,9 +62,12 @@ Partial Class Form1
         '
         'NotifyIcon1
         '
+        Me.NotifyIcon1.BalloonTipIcon = System.Windows.Forms.ToolTipIcon.Info
+        Me.NotifyIcon1.BalloonTipText = "Right Click this icon to configure"
+        Me.NotifyIcon1.BalloonTipTitle = "Tint.net"
         Me.NotifyIcon1.ContextMenuStrip = Me.ContextMenuStrip1
         Me.NotifyIcon1.Icon = CType(resources.GetObject("NotifyIcon1.Icon"), System.Drawing.Icon)
-        Me.NotifyIcon1.Text = "tint.net"
+        Me.NotifyIcon1.Text = "Tint.net"
         Me.NotifyIcon1.Visible = True
         '
         'ContextMenuStrip1
@@ -89,91 +92,91 @@ Partial Class Form1
         'RedToolStripMenuItem
         '
         Me.RedToolStripMenuItem.Name = "RedToolStripMenuItem"
-        Me.RedToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.RedToolStripMenuItem.Size = New System.Drawing.Size(105, 22)
         Me.RedToolStripMenuItem.Text = "Red"
         '
         'GreenToolStripMenuItem1
         '
         Me.GreenToolStripMenuItem1.Name = "GreenToolStripMenuItem1"
-        Me.GreenToolStripMenuItem1.Size = New System.Drawing.Size(152, 22)
+        Me.GreenToolStripMenuItem1.Size = New System.Drawing.Size(105, 22)
         Me.GreenToolStripMenuItem1.Text = "Green"
         '
         'BlueToolStripMenuItem
         '
         Me.BlueToolStripMenuItem.Name = "BlueToolStripMenuItem"
-        Me.BlueToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.BlueToolStripMenuItem.Size = New System.Drawing.Size(105, 22)
         Me.BlueToolStripMenuItem.Text = "Blue"
         '
         'ToolStripSeparator1
         '
         Me.ToolStripSeparator1.Name = "ToolStripSeparator1"
-        Me.ToolStripSeparator1.Size = New System.Drawing.Size(149, 6)
+        Me.ToolStripSeparator1.Size = New System.Drawing.Size(102, 6)
         '
         'IrlenToolStripMenuItem
         '
         Me.IrlenToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.BlueGrayToolStripMenuItem, Me.GoldenRodToolStripMenuItem, Me.GrayToolStripMenuItem, Me.GreenToolStripMenuItem, Me.RoseToolStripMenuItem, Me.TuequoiseToolStripMenuItem, Me.PeachToolStripMenuItem, Me.PurpleToolStripMenuItem, Me.YelloToolStripMenuItem, Me.AquaToolStripMenuItem})
         Me.IrlenToolStripMenuItem.Name = "IrlenToolStripMenuItem"
-        Me.IrlenToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.IrlenToolStripMenuItem.Size = New System.Drawing.Size(105, 22)
         Me.IrlenToolStripMenuItem.Text = "Irlen"
         '
         'BlueGrayToolStripMenuItem
         '
         Me.BlueGrayToolStripMenuItem.Name = "BlueGrayToolStripMenuItem"
-        Me.BlueGrayToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.BlueGrayToolStripMenuItem.Size = New System.Drawing.Size(136, 22)
         Me.BlueGrayToolStripMenuItem.Text = "Blue Gray"
         '
         'GoldenRodToolStripMenuItem
         '
         Me.GoldenRodToolStripMenuItem.Name = "GoldenRodToolStripMenuItem"
-        Me.GoldenRodToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.GoldenRodToolStripMenuItem.Size = New System.Drawing.Size(136, 22)
         Me.GoldenRodToolStripMenuItem.Text = "Golden Rod"
         '
         'GrayToolStripMenuItem
         '
         Me.GrayToolStripMenuItem.Name = "GrayToolStripMenuItem"
-        Me.GrayToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.GrayToolStripMenuItem.Size = New System.Drawing.Size(136, 22)
         Me.GrayToolStripMenuItem.Text = "Gray"
         '
         'GreenToolStripMenuItem
         '
         Me.GreenToolStripMenuItem.Name = "GreenToolStripMenuItem"
-        Me.GreenToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.GreenToolStripMenuItem.Size = New System.Drawing.Size(136, 22)
         Me.GreenToolStripMenuItem.Text = "Green"
         '
         'RoseToolStripMenuItem
         '
         Me.RoseToolStripMenuItem.Name = "RoseToolStripMenuItem"
-        Me.RoseToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.RoseToolStripMenuItem.Size = New System.Drawing.Size(136, 22)
         Me.RoseToolStripMenuItem.Text = "Rose"
         '
         'TuequoiseToolStripMenuItem
         '
         Me.TuequoiseToolStripMenuItem.Name = "TuequoiseToolStripMenuItem"
-        Me.TuequoiseToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.TuequoiseToolStripMenuItem.Size = New System.Drawing.Size(136, 22)
         Me.TuequoiseToolStripMenuItem.Text = "Tuequoise"
         '
         'PeachToolStripMenuItem
         '
         Me.PeachToolStripMenuItem.Name = "PeachToolStripMenuItem"
-        Me.PeachToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.PeachToolStripMenuItem.Size = New System.Drawing.Size(136, 22)
         Me.PeachToolStripMenuItem.Text = "Peach"
         '
         'PurpleToolStripMenuItem
         '
         Me.PurpleToolStripMenuItem.Name = "PurpleToolStripMenuItem"
-        Me.PurpleToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.PurpleToolStripMenuItem.Size = New System.Drawing.Size(136, 22)
         Me.PurpleToolStripMenuItem.Text = "Purple"
         '
         'YelloToolStripMenuItem
         '
         Me.YelloToolStripMenuItem.Name = "YelloToolStripMenuItem"
-        Me.YelloToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.YelloToolStripMenuItem.Size = New System.Drawing.Size(136, 22)
         Me.YelloToolStripMenuItem.Text = "Yellow"
         '
         'AquaToolStripMenuItem
         '
         Me.AquaToolStripMenuItem.Name = "AquaToolStripMenuItem"
-        Me.AquaToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.AquaToolStripMenuItem.Size = New System.Drawing.Size(136, 22)
         Me.AquaToolStripMenuItem.Text = "Aqua"
         '
         'TransparncyToolStripMenuItem
