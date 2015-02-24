@@ -1,4 +1,4 @@
-# tint.net
+# tintr
 
 Tint.net is a open source progam aimed to help dampen the effects of certian types of dyslexia.
 
