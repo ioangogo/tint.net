@@ -1,4 +1,5 @@
-![tintr128 icon](https://cloud.githubusercontent.com/assets/7449028/6350052/4909d062-bc28-11e4-9897-22f01b584f79.png)
+
+![tintr](https://cloud.githubusercontent.com/assets/7449028/6351185/54243ab0-bc31-11e4-9d75-da2ccd8296f0.png)
 
 Tint.net is a open source progam aimed to help dampen the effects of certian types of dyslexia.
 
