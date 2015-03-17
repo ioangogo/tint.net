@@ -118,7 +118,7 @@ Public Class Form1
     End Sub
 
     Private Sub CustomToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles CustomToolStripMenuItem.Click
-        Dim innum As int = InputBox("Please enter a number", "Please enter a number between 0 and 100")
+        Dim innum As Integer = InputBox("Please enter a number", "Please enter a number between 0 and 100")
         Dim val As Decimal = innum/100 
         settrans(val)
     End Sub
