@@ -1,5 +1,5 @@
 ﻿Imports System.Runtime.InteropServices
-
+' this code is dedcated to /u/spellingerror and other dyslecitc people in the world
 Public Class Form1
 
     Private InitialStyle As Integer
