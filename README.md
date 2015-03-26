@@ -12,6 +12,15 @@ Credits
 -------
 Thanks to stackover flow and it community for having precooked code for the overlaying section. Presest Colours are scraped from Irlen website.
 
+Other Versions
+--------------
+
+OSX and iOS: Will not happen as I can't find a feture in the display server to achive this, and my stance on apple hardware
+
+Linux: Almost happening, just working out how x11 works
+
+Android: I NEED TO LEARN JAVA
+
 Licence
 -------
 This project is licenced under the GPL v2, a copy of witch can be found on the gnu website
