@@ -1,7 +1,7 @@
 
 ![tintr](https://cloud.githubusercontent.com/assets/7449028/6351185/54243ab0-bc31-11e4-9d75-da2ccd8296f0.png)
 
-Tint.net is a open source progam aimed to help dampen the effects of certian types of dyslexia.
+Tint.net is a open source progam aimed to help dampen the effects of certian types of Scotopic sensitivity syndrome that is commonly found in people with dyslexia and other disorders^i ^dont ^like ^this ^word ^, ^sounds ^too ^harsh .
 
 ScreenShot(s)
 ------------
