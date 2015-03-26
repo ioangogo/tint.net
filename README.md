@@ -17,11 +17,11 @@ Thanks to stackover flow and it community for having precooked code for the over
 Other Versions
 --------------
 
-**OS X**: Will not happen as I can't find a feture in the display server to achive this, and my stance on apple hardware
+**OS X**: Will not happen as I can't find a feture in the display server to achive this, and my stance on apple hardware. Feel free to make your own version, I dont have a trademark on the name, but Im kindly asking you to link to this repo
 
-**iOS**: Never happening with my own code, as 1. Too expensive 2. iOS is to locked down for it to work for the larger market
+**iOS**: Never, as 1. Too expensive 2. iOS is to locked down for it to work for the larger market.
 
-**Linux**: Almost happening, just working out how x11 works
+**Linux and BSD**: Almost happening, just working out how x11 works
 
 **Android**: I NEED TO LEARN JAVA
 
